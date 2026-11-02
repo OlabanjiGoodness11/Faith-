@@ -175,6 +175,7 @@ section h3 {
 
 section p {
     margin: 5px 0;
+    
 }
 
 section ul {
