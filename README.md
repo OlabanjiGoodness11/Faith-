@@ -111,3 +111,96 @@
 
 </body>
 </html>
+CSS
+
+/* General page styling */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f4f8;
+    color: #333;
+    line-height: 1.7;
+}
+
+/* Header styling */
+header {
+    background-color: #123456;
+    color: white;
+    text-align: center;
+    padding: 35px 15px;
+}
+
+header h1 {
+    font-size: 32px;
+    margin-bottom: 15px;
+}
+
+header h3 {
+    font-size: 15px;
+    font-weight: normal;
+}
+
+/* Main content */
+main {
+    width: 85%;
+    max-width: 900px;
+    margin: 25px auto;
+}
+
+/* Section styling */
+section {
+    background-color: white;
+    margin-bottom: 20px;
+    padding: 22px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+section h2 {
+    color: #123456;
+    border-bottom: 2px solid #123456;
+    padding-bottom: 8px;
+    margin-bottom: 15px;
+}
+
+section h3 {
+    color: #2874a6;
+    margin-top: 12px;
+}
+
+section p {
+    margin: 5px 0;
+}
+
+section ul {
+    padding-left: 25px;
+}
+
+/* Footer styling */
+footer {
+    background-color: #123456;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 30px;
+}
+
+/* Mobile phone styling */
+@media screen and (max-width: 600px) {
+    main {
+        width: 95%;
+    }
+
+    header h1 {
+        font-size: 25px;
+    }
+
+    section {
+        padding: 15px;
+    }
+}
